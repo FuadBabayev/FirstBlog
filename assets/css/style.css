@@ -1,0 +1,203 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+#head{
+    background-color: cyan;
+    background-image: url(../img/italy.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+#container{
+    max-width: 90%;
+    margin: auto;
+    padding-top: 30px;
+    
+}
+#logomenu{
+    display: flex;
+    justify-content: space-between;
+}
+#head h1{
+    font-size: 52px;
+letter-spacing: 2px;
+color: #ffffff;
+font-weight: 300;
+font-family: "Open Sans";
+    text-align: center;
+padding-top: 275px;
+}
+
+#search-box{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 200px;
+    margin: 0px;
+}
+#name{
+    width: 326px;
+height: 40px;
+background-color: #ffffff;
+border: none;
+}
+#button{
+    width: 122px;
+height: 40px;
+background-color: #fd4f32;
+border: none;
+}
+/* Page2 is Start */
+#page2{
+    background-color: #eeeeee;
+    }
+#page2 h1{
+    font-size: 16px;
+letter-spacing: 0px;
+color: #323232;
+font-weight: 400;
+font-family: "Montserrat";
+padding-top: 60px;
+padding-bottom: 15px;
+}
+#page2 p{
+    font-size: 15px;
+letter-spacing: 0px;
+color: #8b8b8b;
+font-weight: 400;
+font-family: "Open Sans";
+padding-bottom: 40px;
+}
+#places{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 80px;
+    margin: 30px;
+}
+#australia, #south-america, #north-america, #europe{
+        max-width: 225px;
+    text-align: center;
+    background-color: #ffffff;
+    width: 225px;
+    height: 340px;
+    padding-left: 15px;
+        }
+       
+
+        #australia p, #south-america p, #north-america p, #europe p{
+            font-size: 14px;
+letter-spacing: 0px;
+color: #323232;
+font-weight: 400;
+font-family: "Montserrat";
+padding-bottom: 10px;
+padding-top: 20px;
+}
+
+
+/*Page3 is Start  */
+
+#page3 h1{
+    font-size: 52px;
+letter-spacing: 2px;
+color: #323232;
+font-weight: 300;
+font-family: "Open Sans";
+padding-top: 80px;
+}
+#before-you-leave{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+@media only screen and (max-width:768px) {
+    #places{
+        display: flex;
+        flex-wrap: wrap;
+    } 
+    #before-you-leave{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+#document, #accommodation, #transportation{
+    max-width: 280px;
+    padding-left: 15px;
+   } 
+#document p, #accommodation p, #transportation p{
+    font-size: 15px;
+letter-spacing: 0px;
+line-height: 22px;
+color: #8b8b8b;
+font-weight: 400;
+font-family: "Open Sans";
+padding-top: 10px;
+}
+#page3 h4{
+    font-size: 16px;
+letter-spacing: 0px;
+color: #323232;
+font-weight: 700;
+font-family: "Montserrat";
+text-align: center;
+}
+#inbox{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 80px;
+         
+}
+
+#email{
+padding: 18px 90px;
+background-color: #eeeeee;
+border: none;
+}
+#page3 button{
+    background-color: #fd4f32;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+letter-spacing: 1px;
+color: #ffffff;
+font-weight: 700;
+font-family: "Open Sans";
+text-align: center;
+}
+/* Footer */
+#footer{
+    background-color: #eeeeee;
+}
+nav{
+    padding-top: 5px;
+    padding-bottom: 15px;    
+    display: flex;
+    justify-content: space-between;
+}
+nav p{
+    font-size: 14px;
+letter-spacing: 0px;
+line-height: 22px;
+color: #8b8b8b;
+font-weight: 400;
+font-family: "Open Sans";
+}
+
+nav ul li{
+     display: inline;
+ }
+ nav ul li a{
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: #323232;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+    text-decoration: none;
+ }
